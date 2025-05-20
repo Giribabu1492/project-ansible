@@ -3,4 +3,5 @@
   become: yes
   tasks:
   - name: print
+  ansible.builtin.debug:
     msg: "Love india"
