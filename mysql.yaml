@@ -1,0 +1,6 @@
+- name: install sql
+  hosts: local
+  connection: local
+  tasks:
+  - name: print
+    msg: "Love india"
