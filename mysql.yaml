@@ -1,6 +1,6 @@
 - name: install sql
-  hosts: local
-  connection: local
+  hosts: mysql
+  become: yes
   tasks:
   - name: print
     msg: "Love india"
