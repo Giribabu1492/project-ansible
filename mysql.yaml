@@ -1,4 +1,4 @@
-- name: install sql
+- name: install sql nad
   hosts: mysql
   become: yes
   tasks:
